@@ -7,5 +7,6 @@ describe("ee-test", () => {
     cy.findByLabelText("count").should("contain.text", 0);
     cy.findByRole("button", { name: /Add Amount/i }).click();
     cy.findByLabelText("count").should("contain.text", 2);
+    cy.percySnapshot();
   });
 });

@@ -1,4 +1,10 @@
+#### eslint helper
+
 `yarn eslint './src/**/*' --ext .js.jsx.ts.tsx --fix`
+
+### jenkins
+
+base on this article `https://rangle.io/blog/running-jenkins-and-persisting-state-locally-using-docker-2/`
 
 install jenkins
 

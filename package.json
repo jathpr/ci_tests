@@ -12,9 +12,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eetest": "cypress open"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -24,6 +26,7 @@
     "@types/react-dom": "^17.0.9",
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
+    "cypress": "^8.3.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "3.4.1",
     "prettier": "^2.3.2",
